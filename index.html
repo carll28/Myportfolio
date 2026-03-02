@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav>
+        <div class="logo">MyPortfolio</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body> <canvas id="starBg"></canvas>
+
+</body>
+
+<!-- HOME -->
+<section id="home" class="hero">
+    
+    <div class="hero-left">
+        <h1 class="hero-name">Lastra Carl A.</h1>
+        <p class="subtitle">
+            Bachelor of Science in Computer Science | Studying to be a Web Designer
+        </p>
+
+        <P class="subtitle">
+            Purok-7 Diatagon, Lianga, Surigao Del Sur
+        </P>
+    </div>
+
+    <div class="hero-right">
+        <img src="profile.jpg" class="profile-img" alt="Profile">
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h1 class="highlight">About Me</h1>
+    <div class="glass">
+        I’m a Computer Science Student passionate about web design and creating websites that look good. 
+        I continue to improve my skills and knowledge every day to grow as a designer in the future.
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h1 class="highlight">Projects</h1>
+    <div class="projects">
+        <div class="card" data-project="portfolio">Web Systems</div>
+        <div class="card" data-project="robot">2WD Smart Robot Car</div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h1 class="highlight">Contacts</h1>
+    <div class="contact-box">
+        <div class="contact-item">Email: calastra@email.com</div>
+        <div class="contact-item">Contact: 09125225133</div>
+    </div>
+</section>
+
+<footer>
+    © 2026 LASTRA, CARL | Portfolio
+</footer>
+
+<!-- SINGLE REUSABLE MODAL -->
+<div class="modal" id="projectModal">
+    <div class="modal-box">
+        <span class="close" id="closeModal">&times;</span>
+        <div class="modal-images" id="modalImages">
+            <!-- Images dynamically added here -->
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
